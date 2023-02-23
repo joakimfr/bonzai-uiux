@@ -1,0 +1,146 @@
+  @import url('https://fonts.googleapis.com/css2?family=Syncopate:wght@400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --text-color: #F5E7E7;
+  --border-color: rgba(245, 231, 231, 0.4);
+  --button-color: #081325;
+  --black-color: #020102;
+  --plum-purple: #18131E;
+  --purple: #20182a;
+}
+
+.main {
+  background-image: url(../images/naturemedium.jpg);
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  align-items: center;
+  padding: 0rem 0rem 0rem 0rem;
+  justify-content: space-between;
+}
+
+.header {
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.header__image {
+  margin-left: 4rem;
+  margin-top: 2rem;
+  width: 97px;
+  height: 97px;
+}
+.triangle {
+  margin: auto;
+}
+
+.navbar {
+ margin-top: 1rem;
+}
+
+.main-hl, .about__headline {
+  color: var(--text-color);
+  font-family: 'Syncopate';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2.4rem;
+  line-height: 40px;
+  
+}
+
+/*.slideshow {
+position: absolute;
+bottom: 0;
+left: 0;
+right: 0;
+margin: auto;
+}
+.slideshow {
+  margin: auto;
+}
+*/
+.explore {
+  padding: 0rem 0rem 5rem 0rem;
+  background-color: black;
+}
+.cards {
+  margin: auto;
+}
+/*
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+ .cards__card {
+  grid-column: auto / span 3;
+ }
+}*/
+
+.cabin-site {
+   background-color: #18131e;
+  padding: 5rem 5rem 5rem 5rem;
+}
+.cabin-site__container {
+ background-color: var(--purple);
+ width: 100%;
+padding: 0rem 1rem 0rem 1rem;
+ 
+}
+
+.cabin-site__header {
+  max-width: 820px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  padding: 2rem 0rem 2rem 0rem;
+}
+.cabin-site__headline {
+  font-family: 'Syncopate';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 38px;
+  line-height: 40px;
+  color: var(--text-color);
+  
+}
+.room-module {
+  max-width: 820px;
+  gap: 2rem;
+  padding: 1.5rem 0rem 1.5rem 0rem;
+  border-width: 1px 0px;
+  border-style: solid;
+  border-color: var(--border-color);
+  display: flex;
+  margin: 0 auto;
+  margin-top: 1.5rem;
+  
+  
+}
+
+
+@media (max-width: 900px){
+  .room-module {
+    flex-direction: column;
+    align-items: center;
+   }
+}
+
+@media (max-width: 615px) {
+  .cabin-site {
+    padding: 5rem 0rem 5rem 0rem;
+  }
+
+ 
+}
+
+
