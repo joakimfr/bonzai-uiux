@@ -15,15 +15,13 @@
   margin: 0;
   padding: 0;
 }
-body {
-  background-color: #1E1E1E;
-}
+
 .comp {
   padding: 5rem;
 }
 
 .triangle {
-  max-width: 300px;
+  max-width: 310px;
   max-height: 190px;
   position:relative;
 }
@@ -34,6 +32,7 @@ body {
 	border-left: 155px solid transparent ;
   border-right: 155px solid transparent;
   border-top: 190px solid rgba(32, 24, 42, 0.4);
+  
 }
 
 .triangle__headline {
@@ -51,7 +50,8 @@ body {
 
 .triangle__line {
   position: absolute;
-  border-top: 1px solid black;
+  border-top: 1px solid var(--black-color);
+  opacity: 40%;
   height: 1px;
   width: 154px;
   top: 48px;
