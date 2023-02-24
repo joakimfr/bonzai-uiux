@@ -79,7 +79,7 @@
 
 .explore {
   padding: 0rem 2rem 5rem 2rem;
-  background-color: black;
+  background-color: var(--black-color);
 }
 
 .cards {
@@ -92,7 +92,7 @@
 }
 
 .cabin-site {
-  background-color: #18131e;
+  background-color: var(--plum-purple);
   padding: 5rem 5rem 5rem 5rem;
 }
 .cabin-site__container {
@@ -131,6 +131,22 @@
 }
 
 
+
+@media (min-width: 1150px) {
+  .navbar-meny {
+    visibility: hidden;
+  }
+ 
+}
+ @media (max-width: 1150px) {
+  .navbar__ul {
+    display: none;
+  }
+  
+  .main-headline {
+    font-size: 1.8rem;
+  }
+}
 @media (max-width: 900px){
   .room-module {
     flex-direction: column;
@@ -160,22 +176,10 @@
   .triangle {
     grid-column: auto / span 3;
   }
-}
-
-@media (max-width: 1150px) {
-  .navbar__ul {
-    display: none;
-  }
-  /*
   .main-headline {
-    font-size: 1.8rem;
-  }*/
-}
-
-@media (min-width: 1150px) {
-  .navbar-meny {
-    visibility: hidden;
+    font-size: 1.2rem;
   }
- 
-}
+ }
+
+
 
