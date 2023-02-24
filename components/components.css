@@ -88,6 +88,9 @@ body {
   line-height: 12px;
   color: var(--text-color);
 }
+.navbar__li:hover {
+  cursor: pointer;
+}
 
 @media (max-width: 1150px) {
   .navbar__ul {
@@ -143,6 +146,12 @@ body {
   border-radius: 8px;
   padding: 1rem;
   border-style: none;
+  transition: all .1s ease-in-out;
+}
+.button__primary:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  opacity: 0.8;
 }
 .button__primary--purple {
   background-color: var(--purple);
@@ -329,6 +338,9 @@ body {
   color: #121212;
   padding-left: 3rem;
 }
+.searchbar__change:hover {
+  cursor: pointer;
+}
 @media (max-width: 800px) {
   .searchbar__li {
 display: none;
@@ -385,6 +397,10 @@ display: none;
   border-width: 1px 0px;
 }
 
+.preview__details:hover {
+  cursor: pointer;
+  
+}
 .preview__text {
   font-family: 'Gruppo';
   font-style: normal;
